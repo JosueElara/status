@@ -1,6 +1,9 @@
 owner: JosueElara
 repo: status
 
+workflowSchedule:
+  uptime: "*/10 * * * *"
+  
 sites:
   - name: Elara.LI URL Shortener
     url: https://elara.li
