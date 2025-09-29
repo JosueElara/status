@@ -1,19 +1,16 @@
-# Change these first
-owner: JosueElara # Your GitHub organization or username, where this repository lives
-repo: status # The name of this repository
+owner: JosueElara
+repo: status
 
 sites:
   - name: Elara.LI URL Shortener
     url: https://elara.li
+    __dangerous__body_down: "Ray ID"
   - name: Kaia by Elara
     url: https://kaia.elara.li
+    __dangerous__body_down: "Ray ID"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.elara.li
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Elara Status
   introTitle: "Status of **Elara** Services"
   introMessage: This platform actively monitors the status of Elara services.
@@ -24,6 +21,3 @@ status-website:
       href: https://elara.li
     - title: GitHub
       href: https://github.com/JosueElara/status
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
