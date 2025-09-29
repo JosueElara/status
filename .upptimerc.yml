@@ -4,10 +4,14 @@ repo: status
 sites:
   - name: Elara.LI URL Shortener
     url: https://elara.li
-    __dangerous__body_down: "Ray ID"
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down: "Cloudflare"
   - name: Kaia by Elara
     url: https://kaia.elara.li
-    __dangerous__body_down: "Ray ID"
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down: "Cloudflare"
 
 status-website:
   cname: status.elara.li
