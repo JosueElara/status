@@ -1,7 +1,7 @@
 url: https://elara.li
-status: up
-code: 200
-responseTime: 2080
-lastUpdated: 2025-11-13T08:17:10.598Z
+status: down
+code: 502
+responseTime: 429
+lastUpdated: 2025-11-13T09:31:50.144Z
 startTime: 2025-09-29T05:04:23.418Z
 generator: Upptime <https://github.com/upptime/upptime>
